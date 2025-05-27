@@ -1,0 +1,75 @@
+/* Tablet device */
+
+@media  screen and (max-width: 1024px) {
+    /* header */
+    header div h2{
+        font-size: 22px;
+    }
+    header div h2{
+        padding: 14px 21px;
+    }
+    /* banner */
+    div.banner-sub h2{
+        font-size: 30px;
+        margin-top: 18px;
+    }
+    /* blog */
+    div.blog-main{
+        display: flex;
+        flex-direction: column;
+    }
+    div.blog-aside{
+        margin-top: 10px;
+    }
+    div.img img{
+        margin-top: 20px;
+    }
+    /* Inspiration */
+    div.inspiration-frame{
+        width: 100%;
+    }
+    div.inspiration-frame iframe{
+    width: 90%;
+    }
+    /* Target */
+    div.card-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.card{
+        margin-top: 20px;
+    }
+    footer.footer-container{
+        margin-top: 20px;
+    }
+    div.footer h3{
+        width: 50%;
+    }
+}
+
+/* Mobile device */
+
+ @media screen and (max-width: 640px) {
+    /* header */
+    header div h2{
+        padding: 6px 4px;
+    }
+    header div button{
+        padding: 2px 3px;
+        font-size: 16px;
+    }
+    /* banner */
+    div.banner-sub h2 {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+    /* inspiration */
+    /* target */
+    div.footer{
+        width: 90%;
+    }
+    div.footer h3{
+        font-size: 16px;
+    }     
+}

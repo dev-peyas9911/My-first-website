@@ -150,41 +150,7 @@ div.blog-aside button{
     box-shadow: 2px 2px 2px 1px #a8a6a6;
 }
 
-/* Styling Inspiration */
-/*
-div.inspiration{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 48px;
-    margin-top: 100px;
-    
-}
-
-div.inspiration-header h3{
-    color: #0D1321;
-    font-size: 32px;
-    font-weight: bolder;
-}
-
-div.inspiration-header p{
-    color: #0D1321;
-    line-height: 26px;
-    margin-top: 10px;
-}
-
-div.inspiration-frame{
-    border: 1px solid #c5c2c2;
-    width: 60%;
-    margin: auto;
-    border-radius: 20px;
-}
-
-div.inspiration-frame iframe{
-    padding: 10px;
-    border-radius: 20px;
-} */
-
-/* Styling Inspiration */
+/* Inspiration */
 
 div.inspiration{
     width: 100%;
