@@ -1,0 +1,313 @@
+/* Poppins Font Implement */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#E6E6FA,#B8E7FA);
+}
+
+/* Styling Header  */
+
+header{
+    max-width: 100%;
+    height: 112px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+}
+header div.header-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px auto;
+    /* border: 1px solid black; */
+}
+header div h2 {
+    width: 234px;
+    height: 42px;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+header div h2 span {
+    color: #FFA500;
+}
+header div button {
+    background-image: linear-gradient(#FFA500, #FFD447);
+    padding: 17px 24px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 2px 2px 2px 1px #a8a6a6;
+}
+
+/* Styling Banner */
+
+div.banner{
+    max-width: 100%;
+}
+div.banner-container{
+    width: 80%;
+    margin: 100px auto;
+    padding: 40px 60px;
+    background-color: #E6EDF9;
+    border-radius: 16px;
+    /* border: 1px solid red; */
+}
+div.banner-container img {
+    display: block;
+    width: 240px;
+    margin: auto;
+}
+div.banner-sub{
+    text-align: center;
+}
+div.banner-sub h2{
+    font-size: 48px;
+    font-weight: bolder;
+}
+div.banner-sub p{
+    color: #0D1321;
+    margin-top: 20px;
+}
+div.banner-sub button {
+    width: 248px;
+    height: 64px;
+    color: #0D1321;
+    background-image: linear-gradient(#FFA500, #FFD447);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    box-shadow: 2px 2px 2px 1px #a8a6a6;
+}
+
+/* Styling Blog */
+
+div.blog{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+div.blog-header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+div.blog-header h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+div.blog-header p{
+    color: #0D1321;
+}
+
+div.blog-main{
+    /* border: 1px solid red; */
+    width: 80%;
+    background-color: #E6EDF9;
+    padding: 48px;
+    margin: auto;
+    display: flex;
+    border-radius: 16px;
+}
+
+div.blog-aside{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+div.blog-aside h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0D1321;
+}
+
+div.blog-aside p{
+    color: #0D1321;
+    margin-bottom: 20px;
+}
+
+div.blog-aside button{
+    background-image: linear-gradient(#FFA500, #FFD447);
+    padding: 17px 24px;
+    border-radius: 10px;
+    width: 248px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    box-shadow: 2px 2px 2px 1px #a8a6a6;
+}
+
+/* Styling Inspiration */
+/*
+div.inspiration{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 100px;
+    
+}
+
+div.inspiration-header h3{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+div.inspiration-header p{
+    color: #0D1321;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+div.inspiration-frame{
+    border: 1px solid #c5c2c2;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+div.inspiration-frame iframe{
+    padding: 10px;
+    border-radius: 20px;
+} */
+
+/* Styling Inspiration */
+
+div.inspiration{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 80px;
+}
+
+div.inspiration-container{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+div.inspiration-container h3{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+div.inspiration-container p{
+    color: #0D1321;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+div.inspiration-frame{
+    border: 1px solid #c5c2c2;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+div.inspiration-frame iframe{
+    width: 95%;
+    height: 450px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/* Styling Targets */
+
+div.target{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+div.target-container{
+    text-align: center;
+}
+
+div.target-header{
+    text-align: center;
+}
+
+div.target-header h3{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+div.target-header p{
+    color: #0D1321;
+}
+
+div.card-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div.card{
+    background-image: linear-gradient(#E6EDF9, #9DE5FF);
+    text-align: left;
+    width: 300px;
+    height: 244px;
+    border-radius: 16px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+div.card *{
+    margin: 20px;
+}
+
+div.card a{
+    color: black;
+}
+
+/* Styling Footer */
+
+footer.footer-container{
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+div.footer h3{
+    padding-top: 20px;
+}
+
+div.footer img{
+    margin: 10px;
+}
+
+/* Styling Button */
+
+button.hover:hover{
+    background-image: linear-gradient(#929df7, #7af09f);
+    cursor: pointer;
+}
